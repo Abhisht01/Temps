@@ -23,12 +23,12 @@ import './styles.css';
               <Link className="text-gray-300 hover:bg-gray-700 hover:text-white block px-10 py-2 rounded-md text-base font-mono  " to="/">Home</Link>
             </div>
             <div className="">
-              <Link className="text-gray-300 hover:bg-gray-700 hover:text-white block px-10 py-2 rounded-md text-base font-mono  " to="/Forecast">Forecast</Link>
+              <Link className="text-gray-300 hover:bg-gray-700 hover:text-white block px-10 py-2 rounded-md text-base font-mono  " to="/Report">Report</Link>
             </div>
           </main>
         </nav>
         <Switch>
-          <Route path="/Forecast">
+          <Route path="/Report">
             <About />
           </Route>
           <Route path="/">
@@ -44,7 +44,7 @@ import './styles.css';
 const Home=()=> {
   return (<main className="tc  i">
 	        <h1 className="font-mono hover-blue text-white toys" >Hi!</h1>
-	         <p  className=" toy text-white align-middle font-mono text-center hover-blue">Welcome to Temps, an small weather forecasting web app <br/> Go to Forecast Page to see Today's Weather report</p>
+	         <p  className=" toy text-white align-middle font-mono text-center hover-blue">Welcome to Temps, an small Weather web app <br/> Go to Report Page to see Today's  report</p>
 	        </main>);
 }
 
