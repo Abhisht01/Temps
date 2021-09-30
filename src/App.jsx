@@ -44,7 +44,7 @@ import './styles.css';
 const Home=()=> {
   return (<main className="tc  i">
 	        <h1 className="font-mono hover-blue text-white toys" >Hi!</h1>
-	         <p  className=" toy text-white align-middle font-mono text-center hover-blue">Welcome to Temps, an small Weather web app <br/> Go to Report Page to see Today's report</p>
+	         <p  className=" toy text-white align-middle font-mono text-center hover-blue">Welcome to Temps, a small Weather web app <br/> Go to Report Page to see Today's report</p>
 	        </main>);
 }
 
